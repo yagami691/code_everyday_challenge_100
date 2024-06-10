@@ -1,0 +1,28 @@
+*, ::before, ::after{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.images {
+    border-radius: 30px;
+    height: 600px;
+    width: 75px;
+    border: 1px solid ;
+    object-fit: cover;
+}
+
+
+.unified{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px;
+    gap: 50px;
+    display:flex;
+    justify-content: center;
+    margin-top:200px;
+   
+}
+body{
+    background-image: url("images/blue_beach.jpg");
+   
+}
