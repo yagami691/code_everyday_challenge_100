@@ -1,0 +1,61 @@
+*, ::before, ::after{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+
+.circle{
+    border: 3px solid #3d14ba ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 100px;
+}
+
+.progress_bar{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.bar::after{
+    content: "";
+    width: 200px;
+    height: 4px;
+    background-color: gray;
+    position : absolute;
+    margin-left: 240px;
+ 
+}
+
+button{
+    width:90px;
+    margin: 20px 50px;
+    padding: 10px;
+  
+}
+
+.change::after{
+  content:"";
+  background-color: #3d14ba;
+}
+
+.grid_position{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin:400px 0 0;
+}
+
+.place_button{
+    display:flex;
+    margin:0 300px; 
+    
+}
