@@ -50,7 +50,7 @@ body{
 }
 
 .circle{
-    background-color: yellow;
+    background-color: black;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -61,6 +61,11 @@ body{
 .container.rotate{
     transform: rotate(-20deg);
 }
+
+.container.rotate  .circle{
+    transform: rotate(-70deg);
+}
+
 
 
 
