@@ -11,4 +11,4 @@ In our project there are three commits with different tags that we must to perfo
 it's an other version to correct your work by looking at the correction in case you weren't capable to finish the exercise or if you had the breaches in your code
 
 ## V(1,2,3,4,5,5..etc)_CUSTOM  
-it's a version in which you custom your work in function the correction or just by yourself
+it's a version in which you customized your work in function the correction or just by yourself
