@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .loader-container {
+    background-image:url("sunset.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(0px); 
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index: -1; 
+   
+  }
+
+  .loading-percent{
+    font-size:50px;
+    color:#f0f0f0;
+  }
+  
+  
+  
+ 
+  
+ 
+  
