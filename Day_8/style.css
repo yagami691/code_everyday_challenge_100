@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 250px auto;
+    border:1px solid;
+    padding:35px;
+    width: 300px;
+    border-radius: 7px;
+    
+   
+
+  }
+  h1{
+    margin-bottom: 25px;
+  }
+
+  .control input{
+    width: 150px;
+    margin:16px;
+    border:0;
+    border-bottom:1px solid;
+    outline: none;
+    
+  
+}
+
+.control input:focus,
+.control input:valid{
+    outline: none;
+}
+.account{
+   margin-top:15px;
+}
+
+.account a {
+    text-decoration: none;
+    color:#6d75bc;
+    
+}
+
+  button{
+    width:250px;
+    margin-top:15px;
+    height: 35px;
+  }
+
+  

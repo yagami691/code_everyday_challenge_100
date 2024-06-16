@@ -110,7 +110,7 @@ nav ul li{
     text-transform: uppercase;
     color:black;
     margin:40px 0;
-    /* transform: translate(-100px); */
+    transform: translate(-30px); 
     transition: transform 0.4s ease-in;
     
 }
