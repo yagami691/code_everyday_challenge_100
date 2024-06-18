@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}  
+
+
+
+.wrap{
+    border: 3px solid #eeeae5 ;
+    background-color: white;
+    width: 800px;
+    height: 350px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    
+}
+
+
+button{
+    width: 220px;
+    height: 50px;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: #9965f4;
+    color: #e7e6ed;
+    
+}  
+
+.challenge{
+    margin-bottom: 75px;
+    font-style: italic;
+    font-size: large;
+    font-weight: 600;
+   
+    
+}
+
+
+#jokes{
+    margin-bottom: 35px;
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: cursive;
+    font-weight: 900;
+    
+}
+
+#jokes:before{
+    content:""
+}
+
+
+
+
