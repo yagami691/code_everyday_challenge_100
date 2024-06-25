@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background-color: #b600ea;
+    color:white;
+   
+
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.horizontal-content{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.horizontal-content div{
+    margin: 15px;
+   
+}
+.horizontal-content .fa-twitter{
+     margin-left:15px;
+     
+}
+
+.horizontal-content .fa-youtube{
+    margin-left:15px;
+    margin-bottom:14px;
+}
+.horizontal-content .fa-facebook-f{
+    margin-left:15px;
+    margin-bottom:14px;
+}
+
+i{
+    font-size: 45px;
+    margin-bottom:14px;
+}
+
+.digits{
+    font-size:3em;
+}
+
+
+.followers{
+    font-size:1.2em;
+}
+
+@media screen and (max-width:450px){
+     .vertical-content{
+        display:flex;
+        flex-direction: column;
+     }
+}
